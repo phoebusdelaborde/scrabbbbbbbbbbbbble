@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .je {
+        flex-direction: row;
+      }
+      #au10,
+      #au8,
+      #au7,
+      #au6,
+      #au5,
+      #au4,
+      #au3,
+      #au10,
+      #au1,
+      #au2,
+      #au9 {
+        border-bottom: red 1px solid;
+      }
+      #ae10,
+      #ae9,
+      #ae8,
+      #ae7,
+      #ae6,
+      #ae5,
+      #ae4,
+      #ae3,
+      #ae2,
+      #ae1 {
+        border-bottom: rgb(66, 2, 66) 1px solid;
+      }
+      #mv10,
+      #mv9,
+      #mv8,
+      #mv7,
+      #mv6,
+      #mv5,
+      #mv4,
+      #mv3,
+      #mv2,
+      #mv1 {
+        border-bottom: blue 1px solid;
+      }
+      #la10,
+      #la9,
+      #la8,
+      #la7,
+      #la6,
+      #la5,
+      #la4,
+      #la3,
+      #la2,
+      #la1 {
+        border-bottom: black 1px solid;
+      }
+      #resu-au {
+        color: red;
+      }
+      #resu-ae {
+        color: rgb(66, 2, 66);
+      }
+      #resu-mv {
+        color: blue;
+      }
+      #resu-la {
+        color: black;
+      }
+    </style>
+
+    <div class="row">
+      <input class="col" id="au1" type="number" /><input
+        class="col"
+        id="ae1"
+        type="number"
+      /><input id="mv1" type="number" class="col" /><input
+        class="col"
+        id="la1"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input class="col" id="au2" type="number" /><input
+        class="col"
+        id="ae2"
+        type="number"
+      /><input class="col" id="mv2" type="number" /><input
+        class="col"
+        id="la2"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input id="au3" class="col" type="number" /><input
+        class="col"
+        id="ae3"
+        type="number"
+      /><input class="col" id="mv3" type="number" /><input
+        class="col"
+        id="la3"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input id="au4" class="col" type="number" /><input
+        id="ae4"
+        class="col"
+        type="number"
+      /><input class="col" id="mv4" type="number" /><input
+        class="col"
+        id="la4"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input id="au5" class="col" type="number" /><input
+        class="col"
+        id="ae5"
+        type="number"
+      /><input class="col" id="mv5" type="number" /><input
+        class="col"
+        id="la5"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input class="col" id="au6" type="number" /><input
+        class="col"
+        id="ae6"
+        type="number"
+      /><input class="col" id="mv6" type="number" /><input
+        class="col"
+        id="la6"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input class="col" id="au7" type="number" /><input
+        class="col"
+        id="ae7"
+        type="number"
+      /><input class="col" id="mv7" type="number" /><input
+        class="col"
+        id="la7"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input id="au8" class="col" type="number" /><input
+        class="col"
+        id="ae8"
+        type="number"
+      /><input class="col" id="mv8" type="number" /><input
+        class="col"
+        id="la8"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input id="au9" class="col" type="number" /><input
+        class="col"
+        id="ae9"
+        type="number"
+      /><input class="col" id="mv9" type="number" /><input
+        class="col"
+        id="la9"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <input id="au10" class="col" type="number" /><input
+        class="col"
+        id="ae10"
+        type="number"
+      /><input class="col" id="mv10" type="number" /><input
+        class="col"
+        id="la10"
+        type="number"
+      />
+    </div>
+    <div class="row">
+      <p id="resu-au"></p>
+      <p id="resu-ae"></p>
+      <p id="resu-mv"></p>
+      <p id="resu-la"></p>
+    </div>
+    <button onclick="afficherResteDivison()">verife</button>
+    <script src="main.js"></script>
+  </body>
+</html>
